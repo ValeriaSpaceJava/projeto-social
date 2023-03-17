@@ -6,10 +6,11 @@
 }
 
 html, body{
-    min-width: 320px;
-    max-width: 800px;
+    
     background-color: black;
     margin: auto;
+    height: 100vh;
+    width: 100vw;
 }
 
 body{
@@ -22,6 +23,9 @@ body{
 main{
     position: relative;
     height: 100vh;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
     
 }
 
@@ -31,7 +35,7 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 655px;
-    width: 200px;
+    width: 320px;
     background:url('../imagens/frame-iphone.png') no-repeat;
 }
 iframe#tela{
@@ -46,7 +50,7 @@ iframe#tela{
 section#redes-sociais{
     text-align: right;
     background-attachment: fixed;
-    margin: auto;
+    margin: 10px;
     background-size: cover;
     
 }
