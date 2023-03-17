@@ -43,9 +43,9 @@ iframe#tela{
 }
 
 section#redes-sociais{
-    text-align: right;
+    text-align:end;
     background-attachment: fixed;
-    margin-right: 40px;
+    
     background-size: cover;
     
 }
